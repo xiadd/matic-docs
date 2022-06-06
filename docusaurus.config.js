@@ -30,7 +30,18 @@ module.exports = {
             to: '/docs/contribute/bug-bountry-program',
             from: '/docs/pos/bug-bountry-programs',
           },
-
+          {
+            to: '/docs/develop/wallets/getting-started',
+            from: '/docs/develop/cexs-wallets',
+          },
+          {
+            to: '/docs/develop/wallets/getting-started',
+            from: '/docs/develop/fiat-on-ramp',
+          },
+          {
+            to: '/docs/develop/wallets/getting-started',
+            from: '/docs/develop/fiat-ramps',
+          },
         ],
         createRedirects: function (existingPath) {
           if (existingPath.startsWith('/docs/validate/')) {
