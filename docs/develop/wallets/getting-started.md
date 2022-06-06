@@ -9,11 +9,6 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-
-This guide includes wallets that support the Polygon network which Polygon Technology is in 
-partnership with, as well as and be a guide for the integration of a key management strategy on 
-client side of your dApp.
-
 :::caution Third-party wallets
 
 These third-party wallets have integrated Polygon and support a variety of features. 
@@ -29,7 +24,7 @@ For a list of CEXs that support Polygon, visit a third-party tracking website su
 
 :::
 
-## Wallets Supporting Polygon
+## Partner Wallets
 
 | Wallet 	| Custody 	| Account Type 	| Multi-Sig 	| NFT 	| dApp Browser 	|
 |---	|---	|---	|---	|---	|---	|
