@@ -9,19 +9,42 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-The following article aims to be a guide through integration of a key management strategy on client side of your Decentralised Application on Matic Network.
 
-The following wallets will be discussed:
+This guide includes wallets that support the Polygon network which Polygon Technology is in 
+partnership with, as well as and be a guide for the integration of a key management strategy on 
+client side of your dApp.
 
-- [Metamask](metamask)
-- [Arkane](arkane/intro)
-- [Coinbase Wallet](https://github.com/coinbase/coinbase-wallet-sdk/)
-- [Fortmatic](fortmatic)
-- [Portis](portis)
-- [Torus](torus)
-- [Wallet Connect](walletconnect)
+:::caution Third-party wallets
 
-### Wallets
+These third-party wallets have integrated Polygon and support a variety of features. 
+You should use your own due diligence in researching and using them. The official Polygon 
+Support cannot provide support for issues with these wallets or other non-native wallets.
+
+:::
+
+## Wallets Supporting Polygon
+
+| Wallet 	| Custody 	| Account Type 	| Multi-Sig 	| NFT 	| dApp Browser 	|
+|---	|---	|---	|---	|---	|---	|
+| [1inch](https://1inch.io/wallet/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
+| [Ambire](https://www.ambire.com/) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	|
+| [BitKeep](https://bitkeep.com/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
+| [Coin98](https://coin98.com/wallet) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
+| [CypherD](https://cypherd.io/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|
+| [Guarda](https://guarda.com/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
+| [Huobi](https://www.itoken.com/en) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
+| [Pillar](https://www.pillar.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
+| [Rainbow](https://rainbow.me/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
+| [Sequence](https://sequence.app/auth) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	|
+| [SimpleHold](https://simplehold.io/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
+| [SteakWallet](https://steakwallet.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
+| [TokenPocket](https://www.tokenpocket.pro/en) 	| non-custodial 	| EOA 	| no 	| support 	| yes 	|
+| [Torus](https://toruswallet.io/) 	| non-custodial 	| EOA 	| no 	| support 	| no 	|
+| [Unstoppable](https://unstoppable.money/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|
+| [Venly](https://www.venly.io/) 	| hybrid 	| smart contract 	| no 	| interface 	| no 	|
+| [XDeFi](https://www.xdefi.io/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
+
+## Wallets for Developers
 
 * [**Arkane**](https://arkane.network/): Arkane is a user-friendly, secure, and custodial key management system for DApps. Arkane supports both Web and mobile, and can service both crypto savvy users as well as a more mainstream audience. Being blockchain agnostic they are a great fit for supporting both Polygon and Ethereum. [For more...](arkane/intro)
 
@@ -36,7 +59,6 @@ The following wallets will be discussed:
 * [**Torus**](https://toruswallet.io/): Torus is a user-friendly, secure, and non-custodial key management system for DApps. We're focused on providing mainstream users a gateway to the decentralized ecosystem. [For more...](torus)
 
 * [**Wallet Connect**](https://walletconnect.org/): WalletConnect is an open protocol to communicate securely between Wallets and Dapps (Web3 Apps). The protocol establishes a remote connection between two apps and/or devices using a Bridge server to relay payloads. These payloads are symmetrically encrypted through a shared key between the two peers. [For more...](walletconnect)
-
 
 ### High-level steps:
 
