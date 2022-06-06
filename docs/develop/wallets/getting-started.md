@@ -22,6 +22,13 @@ Support cannot provide support for issues with these wallets or other non-native
 
 :::
 
+:::info Centralized Exchanges (CEXs)
+
+For a list of CEXs that support Polygon, visit a third-party tracking website such as
+[**CoinMarketCap**](https://coinmarketcap.com/currencies/polygon/).
+
+:::
+
 ## Wallets Supporting Polygon
 
 | Wallet 	| Custody 	| Account Type 	| Multi-Sig 	| NFT 	| dApp Browser 	|
