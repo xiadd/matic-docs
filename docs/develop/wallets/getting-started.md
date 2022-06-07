@@ -6,13 +6,13 @@ description: Build your next blockchain app on Polygon.
 keywords:
   - docs
   - matic
-image: https://matic.network/banners/matic-network-16x9.png 
+image: https://matic.network/banners/matic-network-16x9.png
 ---
 
 :::caution Third-party wallets
 
-These third-party wallets have integrated Polygon and support a variety of features. 
-You should use your own due diligence in researching and using them. The official Polygon 
+These third-party wallets have integrated Polygon and support a variety of features.
+You should use your own due diligence in researching and using them. The official Polygon
 Support cannot provide support for issues with these wallets or other non-native wallets.
 
 :::
@@ -45,6 +45,7 @@ For a list of CEXs that support Polygon, visit a third-party tracking website su
 | [Unstoppable](https://unstoppable.money/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|
 | [Venly](https://www.venly.io/) 	| hybrid 	| smart contract 	| no 	| interface 	| no 	|
 | [XDeFi](https://www.xdefi.io/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
+| [Zelus](https://zelus.io) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
 
 ## Wallets for Developers
 
@@ -65,10 +66,10 @@ For a list of CEXs that support Polygon, visit a third-party tracking website su
 ### High-level steps:
 
 The overall steps would essentially remain the same for any client side application to talk to the blockchain:
- 
-1. **Set up Web3**: [web3.js](https://web3js.readthedocs.io/) is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask/Wallet Connect/Portis. 
-> Note: Refer [Web3.js](https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js) docs to 
-add web3 to your project 
-2. **Set up Account**: To send transactions from (specifically for transactions that alter the state of the blockchain) 
-3. **Instantiate contracts**: Once we have our web3 object in place, we next instantiate our deployed contract, with which we interact. 
+
+1. **Set up Web3**: [web3.js](https://web3js.readthedocs.io/) is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask/Wallet Connect/Portis.
+> Note: Refer [Web3.js](https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js) docs to
+add web3 to your project
+2. **Set up Account**: To send transactions from (specifically for transactions that alter the state of the blockchain)
+3. **Instantiate contracts**: Once we have our web3 object in place, we next instantiate our deployed contract, with which we interact.
 4. **Call functions**: we fetch data via functions in the contract - through our contract object.
