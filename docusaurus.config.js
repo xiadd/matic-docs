@@ -54,6 +54,17 @@ module.exports = {
             to: '/docs/develop/wallets/getting-started',
             from: '/docs/develop/fiat-ramps',
           },  
+            to: '/docs/develop/network-details/full-node-binaries',
+            from: '/docs/integrate/full-node-binaries',
+          },
+          {
+            to: '/docs/develop/network-details/full-node-deployment',
+            from: '/docs/integrate/full-node-deployment',
+          },
+          {
+            to: '/docs/develop/metamask/overview',
+            from: '/docs/develop/wallets/metamask',
+          }
         ],
         createRedirects: function (existingPath) {
           if (existingPath.startsWith('/docs/validate/')) {
@@ -180,7 +191,7 @@ module.exports = {
     },
     ]
     },
-    ],   
+    ],
     logo: {
       alt: 'Polygon Logo',
       src: 'img/polygon/polygon-logo.svg',
