@@ -9,10 +9,13 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png
 ---
 
+Wallets that support Polygon allow for key management, access to accounts controlled by 
+private keys, and interfaces that allow users to perform chain actions and sign transactions.
+
 :::caution Third-party wallets
 
 These third-party wallets have integrated Polygon and support a variety of features.
-You should use your own due diligence in researching and using them. The official Polygon
+**You should use your own due diligence in researching and using them**. The official Polygon
 Support cannot provide support for issues with these wallets or other non-native wallets.
 
 :::
