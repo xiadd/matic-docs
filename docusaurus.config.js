@@ -52,8 +52,9 @@ module.exports = {
           },
           {
             to: '/docs/develop/wallets/getting-started',
-            from: '/docs/develop/fiat-ramps',
-          },  
+            from: '/docs/develop/fiat-ramps'
+          },
+          {  
             to: '/docs/develop/network-details/full-node-binaries',
             from: '/docs/integrate/full-node-binaries',
           },
@@ -64,7 +65,7 @@ module.exports = {
           {
             to: '/docs/develop/metamask/overview',
             from: '/docs/develop/wallets/metamask',
-          }
+          },
         ],
         createRedirects: function (existingPath) {
           if (existingPath.startsWith('/docs/validate/')) {
