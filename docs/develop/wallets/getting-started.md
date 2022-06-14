@@ -26,26 +26,59 @@ For a list of CEXs that support Polygon, visit a third-party tracking website su
 
 ## Partner Wallets
 
-| Wallet 	| Custody 	| Account Type 	| Multi-Sig 	| NFT 	| dApp Browser 	|
-|---	|---	|---	|---	|---	|---	|
-| [1inch](https://1inch.io/wallet/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
-| [Ambire](https://www.ambire.com/) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	|
-| [BitKeep](https://bitkeep.com/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
-| [Coin98](https://coin98.com/wallet) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
-| [CypherD](https://cypherd.io/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|
-| [Guarda](https://guarda.com/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
-| [Huobi](https://www.itoken.com/en) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
-| [Pillar](https://www.pillar.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
-| [Rainbow](https://rainbow.me/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
-| [Sequence](https://sequence.app/auth) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	|
-| [SimpleHold](https://simplehold.io/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	|
-| [SteakWallet](https://steakwallet.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
-| [TokenPocket](https://www.tokenpocket.pro/en) 	| non-custodial 	| EOA 	| no 	| support 	| yes 	|
-| [Torus](https://toruswallet.io/) 	| non-custodial 	| EOA 	| no 	| support 	| no 	|
-| [Unstoppable](https://unstoppable.money/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|
-| [Venly](https://www.venly.io/) 	| hybrid 	| smart contract 	| no 	| interface 	| no 	|
-| [XDeFi](https://www.xdefi.io/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	|
-| [Zelus](https://zelus.io) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	|
+:::info *Non-native wallet support
+
+Wallets denoted with * in the table below are not natively supported with the wallet software 
+and require manual steps to add the Polygon network.
+
+:::
+
+:::info EOA: Externally Owned Account
+
+Externally owned accounts are controlled by a keypair and managed by the holder of the 
+private key, whereas smart contract accounts are managed by smart contract logic.
+
+:::
+
+| Wallet 	| Custody 	| Account Type 	| Multi-Sig 	| NFT 	| dApp Browser 	| platforms 	|
+|---	|---	|---	|---	|---	|---	|---	|
+| [1inch](https://1inch.io/wallet/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	| mobile 	|
+| [Alpha Wallet](https://alphawallet.com/)* 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	| mobile, api/sdk 	|
+| [Atomic Wallet](https://atomicwallet.io/)* 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile, desktop, api/sdk 	|
+| [Ambire](https://www.ambire.com/) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	| browser 	|
+| [BitKeep](https://bitkeep.com/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| mobile 	|
+| [Bitski](https://www.bitski.com/) 	| custodial 	| EOA 	| no 	| interface 	|  	| browser, api/sdk 	|
+| [Coin98](https://coin98.com/wallet) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	| mobile, browser, api/sdk 	|
+| [Coinbase](https://www.coinbase.com/wallet) 	| hybrid 	| EOA 	| no 	| interface 	| yes 	| mobile, browser, api/sdk 	|
+| [CypherD](https://cypherd.io/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	| mobile 	|
+| [D'Cent](https://dcentwallet.com/)* 	| hybrid 	| EOA 	| no 	| interface 	| yes 	| mobile 	|
+| [Exodus](https://www.exodus.com/)* 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile, desktop 	|
+| [Gnosis Safe](https://gnosis-safe.io/)* 	| non-custodial 	| smart contract 	| yes 	| interface 	| yes 	| mobile, browser, api/sdk 	|
+| [Guarda](https://guarda.com/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile, browser, desktop 	|
+| [Huobi](https://www.itoken.com/en) 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile 	|
+| [Ledger](https://www.ledger.com/)* 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| hardware, mobile, desktop 	|
+| [Loopring](https://loopring.io/#/) 	| non-custodial 	| smart contract 	| no 	| no 	| no 	| mobile, api/sdk 	|
+| [Magic](https://fortmatic.com/)* 	| custodial 	| EOA 	| no 	| no 	| no 	| mobile, browser, api/sdk 	|
+| [MathWallet](https://mathwallet.org/en-us/)* 	| custodial 	| EOA 	| no 	| no 	| no 	| mobile, browser, api/sdk 	|
+| [MetaMask](https://metamask.io/)* 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	| mobile, browser, api/sdk 	|
+| [Multis](https://multis.co/)* 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile, desktop 	|
+| [MyEtherWallet](https://www.myetherwallet.com/)* 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| mobile 	|
+| [Opera Crypto Browser](https://www.opera.com/crypto/next)* 	| non-custodial 	| EOA 	| no 	| support 	| yes 	| mobile, browser 	|
+| [Pillar](https://www.pillar.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| mobile 	|
+| [Rainbow](https://rainbow.me/) 	| non-custodial 	| EOA 	| no 	| interface 	| yes 	| mobile, api/sdk 	|
+| [SafePal](https://safepal.io/)* 	| non-custodial 	| EOA 	| no 	| no 	| yes 	| hardware, mobile, api/sdk 	|
+| [Sequence](https://sequence.app/auth) 	| non-custodial 	| smart contract 	| no 	| interface 	| no 	| browser, api/sdk 	|
+| [SimpleHold](https://simplehold.io/) 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile, api/sdk 	|
+| [SteakWallet](https://steakwallet.fi/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| mobile, api/sdk 	|
+| [TokenPocket](https://www.tokenpocket.pro/en) 	| non-custodial 	| EOA 	| no 	| support 	| yes 	| mobile, browser, api/sdk 	|
+| [Torus](https://toruswallet.io/) 	| non-custodial 	| EOA 	| no 	| support 	| no 	| browser, api/sdk 	|
+| [Trezor](https://trezor.io/)* 	| non-custodial 	| EOA 	| no 	| support 	| no 	| hardware, mobile 	|
+| [Trust Wallet](https://trustwallet.com/)* 	| non-custodial 	| EOA 	| no 	| support 	| yes 	| mobile 	|
+| [Unstoppable](https://unstoppable.money/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	| mobile, api/sdk 	|
+| [Venly](https://www.venly.io/) 	| hybrid 	| smart contract 	| no 	| interface 	| no 	| browser, api/sdk 	|
+| [Wirex](https://wirexapp.com/en/wirex-wallet)* 	| non-custodial 	| EOA 	| no 	| no 	| no 	| mobile 	|
+| [XDeFi](https://www.xdefi.io/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| browser 	|
+| [Zerion](https://zerion.io/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	| mobile, browser 	|
 
 ## Wallets for Developers
 
