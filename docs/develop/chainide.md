@@ -84,7 +84,6 @@ After successful compilation, it's time to deploy your compiled ERC-721 smart co
 For that, you need to have a MetaMask installed, the Polygon Mumbai test network added to your wallet, 
 and some testnet tokens to pay for the transaction fee. 
 
-
 Navigate to the "Deploy & Interaction" module and choose among the compiled smart contract. Select 
 the smart contract you want to deploy and click the "deploy" button. 
 For this tutorial, the `GameItem` smart contract will be deployed.
@@ -108,7 +107,6 @@ To mint an NFT, you need to use the "award item" function, the wallet address of
 After successful minting, you can check the minted NFT on the OpenSea NFT marketplace. 
 Visit [OpenSea Testnet](https://testnets.opensea.io/), connect your MetaMask wallet, and make sure the selected network is Polygon Mumbai Testnet, and you'll be able to see and trade the minted NFT on the OpenSea NFT marketplace.
 
-
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(6).png)
 
 ## Create a Flattened File using Flattener Library
@@ -124,18 +122,13 @@ Choose the compiled file, and click on the flatten button to create a flattened 
  it will be automatically copied to the clipboard, 
 you may paste it to a file and save it for later usage.
 
-
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(8).png)
-
 
 If you want to save the flattened file, click save button, and a flattened file will be saved in the current repository.
 
-
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(9).png)
 
-
 The saved flattened file can be access under the explorer module.
-
 
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(10).png)
 
