@@ -714,23 +714,22 @@ module.exports = {
   ],
 
   faq: [
-    "faq/general-faq",
-    "faq/technical-faqs",
-    // "faq/delegator-faq",
-    "faq/commit-chain-multisigs",
-    "maintain/delegate/delegator-faq",
-    "maintain/validate/faq/validator-faq",
-    // "faq/staking-tutorials",
-    {
-      type: "category",
-      label: "Wallet FAQs",
-      items: [
-        "faq/wallet-bridge-faq",
-        "faq/adding-a-custom-token",
-      ],
-    },
-    "faq/consensys-framework",
-    "faq/widget-faq",
-    "faq/wallet-list",
-  ],
+      "faq/general-faq",
+      "faq/technical-faqs",
+      // "faq/delegator-faq",
+      "faq/commit-chain-multisigs",
+      "maintain/delegate/delegator-faq",
+      "maintain/validate/faq/validator-faq",
+      // "faq/staking-tutorials",
+      {
+        type: "category",
+        label: "Wallet FAQs",
+        items: [
+          "faq/wallet-bridge-faq",
+          "faq/adding-a-custom-token",
+            ],
+          },
+      "faq/consensys-framework",
+      "faq/widget-faq",
+    ],
 };
