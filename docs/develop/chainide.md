@@ -40,7 +40,7 @@ After installing MetaMask, you need to manually add the Polygon Mumbai Testnet t
   <img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image.png" />
 </div>
 
-### Getting Testnet  Matic
+### Obtaining Testnet Matic
 
 Once Mumbai has been added to MetaMask, navigate to the [Polygon Faucet](https://faucet.polygon.technology/) to receive test tokens. Tokens are needed to pay for gas fees to deploy and interact with the smart contract. On the faucet page, choose Mumbai as the network, MATIC as the token and paste your MetaMask wallet address. Then, click submit and faucet will send you some test MATIC within a minute.
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/Polygon_PR_get_tokens.png)
