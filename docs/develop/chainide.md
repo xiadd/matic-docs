@@ -16,15 +16,15 @@ keywords:
 image: https://matic.network/banners/matic-network-16x9.png 
 ---
 
-
 ## Introduction
-ChainIDE is a cloud-based IDE for creating decentralized applications to deploy on different blockchains such as  Polygon, Ethereum, BNB Chain, Conflux, Nervos, Dfinity, Flow, Chain33, Fisco Bcos, etc. It fasts the development cycle and has pre-installed plugins that save users' time and effort. This is the beginner guide to creating and deploying a simple ERC-721 smart contract on Polygon Mumbai Testnet. If you have any questions, feel free to ask them in the [ChainIDE Discord](https://discord.gg/QpGq4hjWrh).
 
-## Prerequisites
+[ChainIDE](https://chainide.com/) is a chain agnostic, cloud-based IDE for creating decentralized applications. It enhances development cycle through pre-configured plugins that save users' time and effort. This is a beginner guide on creating and deploying a simple ERC-721 smart contract on the Polygon Mumbai Testnet. If you have any questions, feel free to ask them in the [ChainIDE Discord](https://discord.gg/QpGq4hjWrh).
+
+## Pre-requisites
+
 1. ChainIDE
 2. MetaMask
 3. Solidity
-
 
 ## Setting up a Wallet
 
@@ -32,24 +32,24 @@ ChainIDE is a cloud-based IDE for creating decentralized applications to deploy 
 
 When deploying a smart contract on the blockchain or when making a transaction to a deployed smart contract, a gas fee must be paid, and for that, we need to use a crypto wallet which can be MetaMask. Click [here](https://metamask.io/) to install MetaMask. 
 
+###  Manually adding the Mumbai testnet
 
-###  Adding the Mumbai Testnet
 After installing MetaMask, you need to manually add the Polygon Mumbai Testnet to MetaMask. To add Polygon Mumbai Testnet to MetaMask, see the [MetaMask Polygon documentation](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask#add-the-polygon-network-manually). 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image.png" />
 </div>
 
-### Getting Test Matic
-Once added Mumbai testnet to MetaMask, navigate to the [Polygon Faucet](https://faucet.polygon.technology/) to get some test tokens. We will need them to pay for gas fees to deploy and interact with the smart contract. choose Mumbai as a network, Matic Token as a token and paste your MetaMask wallet address, click submit, and faucet will send you some test Matic.
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/Polygon_PR_get_tokens.png)
+### Getting Testnet  Matic
 
+Once Mumbai has been added to MetaMask, navigate to the [Polygon Faucet](https://faucet.polygon.technology/) to receive test tokens. Tokens are needed to pay for gas fees to deploy and interact with the smart contract. On the faucet page, choose Mumbai as the network, MATIC as the token and paste your MetaMask wallet address. Then, click submit and faucet will send you some test MATIC within a minute.
+![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/Polygon_PR_get_tokens.png)
 
 ## What You'll Do
 
 The following are general steps for deploying an ERC-721 smart contract:
 
-1.  Finish setting up a wallet
+1.  Set up a wallet
     
 2.  Write down an ERC-721 smart contract
     
@@ -62,7 +62,6 @@ The following are general steps for deploying an ERC-721 smart contract:
 6.  Verify the deployed smart contract on Polygonscan
 
 7. NFT minting
-​
 
 ## Write an ERC-721 Smart Contract
 
@@ -83,7 +82,6 @@ You need to write down all the required functions that you want to implement in 
 -   `safeTransferFrom()`: To transfer the ownership of an NFT, a successful transfer operation must initiate a transfer event
     
 -   `transferFrom()`: Used to transfer NFTs. After the method succeeds, it needs to trigger the transfer event. The caller confirms himself_ To address can receive NFT normally, otherwise, this NFT will be lost. When this function is implemented, it needs to check whether it meets the judgment conditions
-    
 
 The ChainIDE team has prepared a complete ERC-721 template contract that includes all the required functions; you may use this built-in template and add/delete functions according to your requirements.
 
@@ -186,5 +184,4 @@ After successful minting, you can check the minted NFT on the OpenSea NFT market
 
 ![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(6).png)
 
-
-You have minted an NFT successfully, and you're done with this tutorial.
+Congratulations, you have successfully minted an NFT on Polygon using ChainIDE.
