@@ -26,6 +26,18 @@ image: https://matic.network/banners/matic-network-16x9.png
 2. MetaMask
 3. Solidity
 
+## What You'll Do
+
+The following are general steps for deploying an ERC-721 smart contract:
+
+1.  Setting up a wallet
+2.  Write down an ERC-721 smart contract
+3.  Compile an ERC-721 Smart Contract
+4.  Deploy an ERC-721 Smart Contract
+5.  Create a Flattened File using Flattener Library
+6.  Verify a Smart Contract
+7.  NFT Minting
+
 ## Setting up a Wallet
 
 ### Install MetaMask
@@ -43,25 +55,8 @@ After installing MetaMask, you need to manually add the Polygon Mumbai Testnet t
 ### Obtaining Testnet Matic
 
 Once Mumbai has been added to MetaMask, navigate to the [Polygon Faucet](https://faucet.polygon.technology/) to receive test tokens. Tokens are needed to pay for gas fees to deploy and interact with the smart contract. On the faucet page, choose Mumbai as the network, MATIC as the token and paste your MetaMask wallet address. Then, click submit and faucet will send you some test MATIC within a minute.
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/Polygon_PR_get_tokens.png)
 
-## What You'll Do
-
-The following are general steps for deploying an ERC-721 smart contract:
-
-1.  Set up a wallet
-    
-2.  Write down an ERC-721 smart contract
-    
-3.  Compile the smart contract
-    
-4.  Deploy the smart contract
-    
-5.  Create a flattened file for the smart contract verification
-    
-6.  Verify the deployed smart contract on Polygonscan
-
-7. NFT minting
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/Polygon_PR_get_tokens.png" width="100%" height="100%" />
 
 ## Write an ERC-721 Smart Contract
 
@@ -87,17 +82,17 @@ The ChainIDE team has prepared a complete ERC-721 template contract that include
 
 Visit the [ChainIDE site](www.chainide.com) and click on "Try Now".
 
-![](https://3869740696-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MYy-lqJKjq1m0yBAX4r%2Fuploads%2Fnpdf7fg51675wYmFcL6b%2Fimage.png?alt=media&token=353fc876-a319-49cb-92d5-1ed23c39aa90)
+<img src="https://3869740696-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MYy-lqJKjq1m0yBAX4r%2Fuploads%2Fnpdf7fg51675wYmFcL6b%2Fimage.png?alt=media&token=353fc876-a319-49cb-92d5-1ed23c39aa90" width="100%" height="100%" />
 
 Then, click on "New Project" and select "Polygon" , "ERC721 Showcase".
 
-![](https://chainide-doc.s3.amazonaws.com/Using+ChainIDE+polygon/select+polygon+showcase.png)
+<img src="https://chainide-doc.s3.amazonaws.com/Using+ChainIDE+polygon/select+polygon+showcase.png" width="100%" height="100%" />
 
 Now, you can see the template contract, **Creature.sol**, that includes all the required functions.
 
 After creating the project, click on the "unconnected button" in the upper right corner, select the "Injected Web3 Provider" button, and then select on MetaMask to connect to the MetaMask wallet (Polygon Mainnet is the main network, and Mumbai is the test network - connect to Mumbai).
 
-![](https://chainide-doc.s3.amazonaws.com/Using+ChainIDE+polygon/connect+mumbai.png)
+<img src="https://chainide-doc.s3.amazonaws.com/Using+ChainIDE+polygon/connect+mumbai.png" width="100%" height="100%" />
 
 ## Compile an ERC-721 Smart Contract
 
@@ -109,7 +104,7 @@ Note down the compiler version and the license for your source code as it would 
 
 :::
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(1).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(1).png" width="100%" height="100%" />
 
 ## Deploy an ERC-721 Smart Contract
 
@@ -117,39 +112,39 @@ After successful compilation, it's time to deploy your compiled ERC-721 smart co
 
 Navigate to the "Deploy & Interaction" module and choose among the compiled smart contract. Select the smart contract you want to deploy and click the "deploy" button. For this tutorial, the `GameItem` smart contract will be deployed.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(2).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(2).png" width="100%" height="100%" />
 
 After successful deployment, an output message should state that your smart contract was deployed successfully. You can now verify the deployed contract. All the functions in the deployed smart contract can be seen in the "INTERACT" panel.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(3).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(3).png" width="100%" height="100%" />
 
 ## Create a Flattened File using Flattener Library
 
 To verify a smart contract that imports other smart contracts, we need to create a flattened file, a flattened file including all the source code of imported contracts in a single file. To create a flattened file, you need to add a "Flattener" plug-in.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(7).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(7).png" width="100%" height="100%" />
 
 Once the Flatterner plug-in is activated, you'll be able to access it as a separate module as shown in the figure below. Choose the compiled file, and click on the flatten button to create a flattened file, once the flattened file is created, it will be automatically copied to the clipboard, you may paste it to a file and save it for later usage.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(8).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(8).png" width="100%" height="100%" />
 
 If you want to save the flattened file, click save button, and a flattened file will be saved in the current repository.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(9).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(9).png" width="100%" height="100%" />
 
 The saved flattened file can be access under the explorer module.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(10).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(10).png" width="100%" height="100%" />
 
 ## Verify a Smart Contract
 
 To verify a smart contract, you need to visit [Mumbai Polygonscan](https://mumbai.polygonscan.com/), and search for the deployed smart contract using the contract address.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(11).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(11).png" width="100%" height="100%" />
 
 Click on the "verify and publish" link shown under the contract section.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(12).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(12).png" width="100%" height="100%" />
 
 Once you click on the verify and publish link, you will be asked for the following:
 
@@ -162,26 +157,26 @@ Once you click on the verify and publish link, you will be asked for the followi
 -   License: Open-source license type that you used for your source code
     
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(13).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(13).png" width="100%" height="100%" />
 
 After that, you need to paste the flattened file that you created in step 5, and your smart contract will be verified.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(14).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(14).png" width="100%" height="100%" />
 
 If there are no issues with your smart contract, it would be verified, and you'll be able to see an image similar to the one that is shown below.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(15).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(15).png" width="100%" height="100%" />
 
 ## NFT Minting
 
 To mint an NFT, you need to use the "award item" function, the wallet address of someone to whom you want to award an NFT too, and the link of the photo uploaded to IPFS needs to be pasted in the token URL input field.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(4).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(4).png" width="100%" height="100%" />
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(5).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(5).png" width="100%" height="100%" />
 
 After successful minting, you can check the minted NFT on the OpenSea NFT marketplace. Visit [OpenSea Testnet](https://testnets.opensea.io/), connect your MetaMask wallet and make sure the selected network is Polygon Mumbai Testnet, and you'll be able to see and trade the minted NFT on the OpenSea NFT marketplace.
 
-![](https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(6).png)
+<img src="https://chainide-doc.s3.amazonaws.com/ERC+721+Deployment+on++Mumbai/image+(6).png" width="100%" height="100%" />
 
 Congratulations, you have successfully minted an NFT on Polygon using ChainIDE.
